@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<style>
+
+  .box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid coral;
+    margin: 30px;
+    background: #FFE3D6;
+  }
+
+  .content-box {
+    box-sizing: content-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid coral;
+    background: #FFE3D6;
+    margin-bottom: 20px;
+  }
+
+  .border-box {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #D95C43;
+    background: #FFF3E0;
+  }
+</style>
+</head>
+<body>
+
+  <div class="box">This is the content.</div>
+
+  <div class="content-box">content-box (actual width: 250px)</div>
+  <div class="border-box">border-box (actual width: 200px)</div>
+
+</body>
+</html>
